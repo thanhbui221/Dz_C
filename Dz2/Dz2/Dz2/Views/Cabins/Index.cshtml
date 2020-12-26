@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Dz2.Models.Cabin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.model_name_cabin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.serial_number_cabin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.type_cabin)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.model_name_cabin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.serial_number_cabin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type_cabin)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CabinID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CabinID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CabinID })
+        </td>
+    </tr>
+}
+
+</table>

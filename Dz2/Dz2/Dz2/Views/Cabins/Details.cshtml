@@ -1,0 +1,42 @@
+﻿@model Dz2.Models.Cabin
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cabin</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.model_name_cabin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.model_name_cabin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.serial_number_cabin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.serial_number_cabin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type_cabin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type_cabin)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CabinID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

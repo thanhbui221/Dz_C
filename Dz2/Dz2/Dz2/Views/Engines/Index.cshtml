@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Dz2.Models.Engine>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.model_name_engine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.serial_number_engine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.type_engine)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.model_name_engine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.serial_number_engine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type_engine)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EngineID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EngineID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EngineID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,9 @@
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.deps.json
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.dll
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.pdb
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.csprojAssemblyReference.cache
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.AssemblyInfoInputs.cache
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.AssemblyInfo.cs
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.dll
+D:\IU6-71\C#\Dz1\ClassLibrary1\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.pdb
